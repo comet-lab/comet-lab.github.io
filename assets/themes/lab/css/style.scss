@@ -2,7 +2,7 @@
 ---
 
 $font-size-base: 16px;
-$font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack:    'Avenir', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
 $subtle-color: #95a5a6;
 $font-weight-base: 300;
@@ -82,8 +82,8 @@ p {
 	height: 5px;
 }
 
-a.off { 
-	color: inherit; 
+a.off {
+	color: inherit;
 	border-bottom: none;
 }
 
@@ -131,6 +131,7 @@ a.off {
 	margin-left: auto;
 	margin-right: auto;
 	color: #880000;
+	color: #003660;
 	font-size: $font-size-base*2;
 }
 
@@ -162,7 +163,7 @@ strong {
 	height: 180px;
 	line-height: 65px;
 	font-weight: $heavy-font-weight;
-	display: table-cell; 
+	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 	text-shadow: 1.5px 1.5px #ffffff;
@@ -170,13 +171,13 @@ strong {
 
 // navbar
 
-.navbar-brand { 
-	font-size: 30px; 
+.navbar-brand {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 }
 
-.navbar-nav { 
-	font-size: 30px; 
+.navbar-nav {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 	a {
 		color: black;
@@ -243,7 +244,7 @@ strong {
   bottom:0px;
 }
 
-.carousel-overlay { 
+.carousel-overlay {
 	position:absolute;
 	z-index:12;
 	top:50%;
@@ -271,13 +272,13 @@ strong {
 }
 
 .title {
-	font-size: 45px; 
+	font-size: 45px;
 	line-height: 50px;
 	font-weight: 100;
 }
 
 .bigtitle {
-	font-size: 60px; 
+	font-size: 60px;
 	line-height: 65px;
 	font-weight: 100;
 }
@@ -324,7 +325,7 @@ strong {
 
 	h1 {
 
-	}	
+	}
 }
 .note {
 	font-size: $font-size-base;
@@ -335,7 +336,7 @@ strong {
 		color: black;
 		border-bottom: thin dotted;
 		/*&:hover {
-			border-bottom: thin solid;	
+			border-bottom: thin solid;
 		}*/
 	}
 
@@ -351,7 +352,7 @@ strong {
 }
 
 .journal-title {
-	
+
 }
 
 .journal {
@@ -391,3 +392,67 @@ strong {
   vertical-align:super;
   font-size:0.8em;
 }
+
+
+// adding style for new navbar color scheme
+
+$bgDefault   : #003660;
+$bgHighlight : #002B4C;
+$colDefault  : #ffffff;
+$colHighlight: #FDBC16;
+
+.navbar-default {
+	background-image:none;
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+
+  .navbar-text {
+    color: $colDefault;
+	}
+
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+				background-image:none;
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+// end new navbar color scheme
