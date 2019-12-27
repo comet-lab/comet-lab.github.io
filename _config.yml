@@ -14,7 +14,7 @@ markdown: kramdown
 title : COMET LAB
 tagline: Cognitive Medical Technology Laboratory at WPI
 institution:
-  url: https://cometlab.wpi.edu
+  url: https://cometlab.github.io
   name: Worcester Polytechnic Institute
 department:
   url: http://www.wpi.edu/+rbe
