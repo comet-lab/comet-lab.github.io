@@ -2,7 +2,7 @@
 layout: project
 title: "Automated Laser Ablation of Soft Tissue"
 handle: et
-#image: /assets/images/projects/evolution-of-translation.svg
+image: /assets/images/tissue-incision-depth.png
 #category: project
 #tags: [vocal folds, surgery, laser, continuum]
 ---

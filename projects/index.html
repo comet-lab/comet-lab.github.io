@@ -20,9 +20,9 @@ navorder: 1
         with available instrumentation. Close interaction with medical doctors is a
         fundamental component of our research.</p>
 
-        <p>Are you interested in working with us? We are always looking for new ideas and
+        <p>Do you want to work with us? We are always looking for new ideas and
           clinical areas to work on. Please, contact us or have a look at the
-          Opportunities page.</p>
+          Contact page.</p>
         </div>
       </div>
     </div>
@@ -36,20 +36,51 @@ navorder: 1
   <hr/>
 </div> -->
 <h1> Current Projects </h1>
+{% assign projectrindex = 0 %}
 {% for project in site.categories.projects %}
-<!-- <div class='row'> -->
+{% assign projectindex = projectindex | plus: 1 %}
+{% assign colindex = projectindex | modulo: 3 %}
 
-  <div class='row'>
-    <div class='col-md-12'>
-      <div class="media">
-        <a class="project-image" href="{{ project.url }}">
-          <img class="media-object" src="{{ project.image }}">
-        </a>
-      </div>
+{% if colindex == 1 %} <!-- open a new row -->
+<div class="row">
+  {% endif %}
+
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{ project.url }}">
+        <img src="{{ project.image }}" alt="" style="width:100%">
+        <div class="caption">
+          <div class="text-center">
+            <h2>{{ project.title }}</h2>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 
-  <div class='row'>
+{% if colindex == 0 %} <!-- closing a row -->
+</div><div class="bigspacer"></div>
+{% endif %}
+
+{% endfor %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
+
+  <!-- <div class='row'> -->
+    <!-- <div class='col-md-4'>
+      <div class="media">
+        <a class="project-image" href="{{ project.url }}">
+          <img class="media-object" src="{{ project.image }}">
+          <h2>
+          {{ project.title }}
+          </h2>
+        </a>
+      </div>
+    </div> -->
+  <!-- </div> -->
+
+  <!-- <div class='row'>
     <div class="col-md-4 paperbox">
       <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a>
       </div>
@@ -57,8 +88,5 @@ navorder: 1
     <div class='col-md-8'>
       {{ project.content }}
     </div>
-  </div>
+  </div> -->
 <!-- </div> -->
-{% endfor %}
-
-<div class="bigspacer"></div>
