@@ -5,7 +5,7 @@ position: M.S. Student
 nickname: mostafa
 handle: maatalla
 email: maatalla@wpi.edu
-image: /assets/images/team/mostafa-atalla.png
+image: /assets/images/team/mostafa-atalla.jpg
 alum: false
 ---
 
