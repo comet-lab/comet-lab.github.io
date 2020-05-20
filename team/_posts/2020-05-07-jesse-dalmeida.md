@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jesse F. d'Almeida"
-position: MS Student
+position: M.S. Student
 nickname: Jesse
 handle: jesse
 email: jfdalmeida@wpi.edu
