@@ -5,7 +5,7 @@ position: M.S. Student
 nickname: Nick
 handle: nick
 email: npacheco@wpi.edu
-#image: /assets/images/team/jesse-dalmeida.jpg
+image: /assets/images/team/nicholas-pacheco.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
