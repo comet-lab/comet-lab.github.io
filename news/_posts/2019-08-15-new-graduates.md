@@ -16,7 +16,6 @@ California Santa Barbara.
 
 [Karim] successfully passed his Biomedical Engineering MS defense on July 23 with a thesis entitled
 **Towards the automatic control of laser ablation for surgical applications**.
-He will continue his studies in our lab as a Ph.D. student in robotics.
 
 [Nick] completed the requirements for the non-thesis MS degree in Robotics on August 16,
 and will move to the University of Arkansas at Little Rock, where he will pursue a
