@@ -7,6 +7,6 @@ handle: iachan
 email: iachan@wpi.edu
 image: /assets/images/team/isabelle-chan.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
 Isabelle Chan is a member of the class of 2021 at WPI, double majoring in Mechanical Engineering and Robotics Engineering.

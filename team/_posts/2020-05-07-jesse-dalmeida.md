@@ -7,6 +7,6 @@ handle: jesse
 email: jfdalmeida@wpi.edu
 image: /assets/images/team/jesse-dalmeida.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
 Jesse d'Almeida is a BS/MS student at WPI. He won the Robotics Oustanding Junior award in 2019.
