@@ -7,6 +7,6 @@ handle: emily
 email: evminch@wpi.edu
 image: /assets/images/team/emily-minch.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
-Emily Minch is a member of the class of 2022 at WPI, majoring in Biomedical Engineering with a minor in Electrical Engineering and on the pre-health track. 
+Emily Minch is a member of the class of 2022 at WPI, majoring in Biomedical Engineering with a minor in Electrical Engineering and on the pre-health track.
