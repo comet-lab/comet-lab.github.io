@@ -7,5 +7,5 @@ handle: ananya
 email: asrinivasagopala@wpi.edu
 #image: /assets/images/team/jackie-lopez.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
