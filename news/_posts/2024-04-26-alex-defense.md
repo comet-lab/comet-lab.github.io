@@ -10,4 +10,10 @@ tags: [publication]
 [Alex] successfully defended his PhD thesis entitled
 _New Miniaturized Wristed Instruments for In-Office Endoscopic Laser Surgery_. He is the first PhD graduate of the COMET Lab!
 
+
+<p align="center">
+<img src="/assets/images/news/alex-graduation-2024.jpg" width="50%">
+</p>
+
+
 [Alex]: /team/alex-chiluisa
