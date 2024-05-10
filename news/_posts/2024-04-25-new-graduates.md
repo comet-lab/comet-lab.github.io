@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Kalina and Chris' thesis defenses"
+title: "Kalina and Chris' MS Thesis Defenses"
 author: "Loris Fichera"
 author_handle: "lfichera"
 image: /assets/images/news/default-news.png
