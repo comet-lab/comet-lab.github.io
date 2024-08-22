@@ -3,12 +3,12 @@ layout: member
 title: "Lucas Burstein"
 position: Ph.D. Student
 nickname: Lucas
-#handle: wwang
-#email: wwang11@wpi.edu
+handle: lucas
+email: laburstein@wpi.edu
 #twitter: lorisfichera
 #github: kid-a
 #scholar: -tEj_0u4AAAAJ
-#image: /assets/images/team/wenpeng-wang.jpg
+image: /assets/images/team/lucas-burstein.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
