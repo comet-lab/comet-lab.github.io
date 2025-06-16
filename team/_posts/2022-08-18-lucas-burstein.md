@@ -12,4 +12,4 @@ image: /assets/images/team/lucas-burstein.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
-Lucas is an incoming PhD student at WPI, set to begin his studies in the Fall semester of 2014.
+Lucas is a new PhD student at WPI, set to begin his studies in the Fall semester of 2024.
