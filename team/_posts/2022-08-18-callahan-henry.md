@@ -12,4 +12,4 @@ image: /assets/images/team/callahan-henry.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
-Cal is a new PhD student at WPI, set to begin his studies in the Fall semester of 2014.
+Cal is a PhD student at WPI who began his studies in the Fall of 2024.
