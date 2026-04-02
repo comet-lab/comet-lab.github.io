@@ -10,6 +10,6 @@ email: ajchiluisa@wpi.edu
 #scholar: -tEj_0u4AAAAJ
 image: /assets/images/team/alex-chiluisa.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
 Alex is a Ph.D. student.

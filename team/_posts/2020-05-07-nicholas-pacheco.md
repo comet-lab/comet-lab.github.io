@@ -7,6 +7,6 @@ handle: nick
 email: nepacheco@wpi.edu
 image: /assets/images/team/nicholas-pacheco.jpg
 #cv: /assets/pdfs/drummond-cv.pdf
-alum: false
+alum: true
 ---
 Nicholas Pacheco is a Ph.D. student at WPI. He won the Salisbury Prize in 2020.
