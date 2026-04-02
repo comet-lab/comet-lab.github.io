@@ -13,4 +13,5 @@ image: /assets/images/team/wenpeng-wang.jpg
 alum: false
 ---
 Wenpeng is a PhD student at WPI.
-He received his bachelor's degree of System Engineering and Design at University of Illinois at Urbana-Champaign, and he received master's degree of Robotics at Johns Hopkins University.
+He received his bachelor's degree of System Engineering and Design at University of Illinois at Urbana-Champaign, and he received master's degree of Robotics at Johns Hopkins University. 
+He will be attending ICRA 2026 to present a work published in RA-L. See you in Vienna.
